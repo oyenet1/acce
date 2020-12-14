@@ -81,7 +81,7 @@ class ContactController extends Controller
             // Content
             $mail->isHTML(true); // Set email format to HTML
             $mail->Subject = $data['subject'];
-            $mail->Body = $data['message'].' <br>'. '<h5>Name</h5>:' . 0 . $data['name'].' <br>'. '<h5>Phone</h5>:' . 0 . $data['phone'] .' <br>'. '<h5>Email</h5>:' . 0 . $data['email'];
+            $mail->Body = $data['message'].' <br>'. '<h5>Name</h5>:' . $data['name'].' <br>'. '<h5>Phone</h5>:' . 0 . $data['phone'] .' <br>'. '<h5>Email</h5>'. $data['email'];
             $mail->AltBody = 0 . $data['phone'];
 
             $mail->send();
