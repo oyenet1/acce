@@ -2,402 +2,408 @@
 @section('title', 'Acce-Abuja')
 @section('content')
     <div class="container-fluid m-0 p-0">
-{{--  --}}
+        {{-- --}}
 
         <div class="bg-orange m-0 p-1">
             <p class="al-ansar m-0 text-white text-center text-sm-left d-md-none">Al-Ansar Center for Comprehensive
                 Education</p>
         </div>
+        <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+            <iframe style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden"
+                src="https://www.youtube.com/embed/EZAkP8jP5fY?autoplay=1&mute=1&enablejsapi=1" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
         {{-- <iframe width="1280" height="720" src="https://www.youtube.com/embed/EZAkP8jP5fY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> --}}
-        <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;"> <iframe style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden" frameborder="0" type="text/html" src="https://www.youtube.com/embed/EZAkP8jP5fY?autoplay=1" width="100%" height="80%" allowfullscreen allow="autoplay"> </iframe> </div>
-        <!-- slideshow -->
-        {{-- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="9"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="10"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="11"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="12"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="13"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="14"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="15"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="16"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="17"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="18"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="19"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="20"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="21"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item d-2 animate__animated animate__rotateInUpLeft active">
-                    <img src="/image/slide24.jpg" class="d-block w-100" alt="image/school.jpg">
-                    <div class="carousel-caption alert alert-dismissible">
-                        <button type="button" class="close text-color-2 icon-close" data-dismiss="alert">&times;</button>
-                        <p class="w-100 py-1 m-0 bg-orange"></p>
-                        <marquee behavior="scroll" direction="right">
-                            <h5 class="bg-color text-center text-white py-2 w-100">&nbsp;&nbsp;Admission!!!
-                                &nbsp;Admission!!!&nbsp;
-                                Admission!!!&nbsp;&nbsp;</h5>
-                        </marquee>
-                        <P class="display-5 text-capitalize">click <a href="{{ route('admission') }}">Here</a> to apply</P>
-                    </div>
-                </div>
-                <div class="carousel-item d-2 animate__animated animate__backInDown">
-                    <img src="/image/slide21.jpg" class="d-block w-100" alt="image/school.jpg">
-                    <div class="carousel-caption d-none alert alert-dismissible">
-                        <button type="button" class="close text-color-2 icon-close" data-dismiss="alert">&times;</button>
-                        <p class="w-100 py-1 m-0 bg-orange"></p>
-                        <marquee behavior="scroll" direction="right">
-                            <h5 class="bg-color text-center text-white py-2 w-100">&nbsp;&nbsp;Admission!!!
-                                &nbsp;Admission!!!&nbsp;
-                                Admission!!!&nbsp;&nbsp;</h5>
-                        </marquee>
-                        <P class="display-5">click <a href="{{ route('admission') }}">Here</a> to apply</P>
-                    </div>
-                </div>
-                <div class="carousel-item d-2 animate__animated animate__slideInUp">
-                    <img src="/image/slide1.jpg" class="d-block w-100" alt="image/school.jpg">
-                    <div class="carousel-caption d-none alert alert-dismissible">
-                        <button type="button" class="close text-color-2 icon-close" data-dismiss="alert">&times;</button>
-                        <p class="w-100 py-1 m-0 bg-orange"></p>
-                        <marquee behavior="scroll" direction="right">
-                            <h5 class="bg-color text-center text-white py-2 w-100">&nbsp;&nbsp;Admission!!!
-                                &nbsp;Admission!!!&nbsp;
-                                Admission!!!&nbsp;&nbsp;</h5>
-                        </marquee>
-                        <P class="display-5 text-capitalize">click <a href="{{ route('admission') }}">Here</a> to apply</P>
-                    </div>
-                </div>
-                <div class="carousel-item d-2 animate__animated animate__rotateInUpLeft">
-                    <img src="/image/slide2.jpg" class="d-block w-100" alt="image/school.jpg">
-                    <div class="carousel-caption d-none alert alert-dismissible">
-                        <button type="button" class="close text-color-2 icon-close" data-dismiss="alert">&times;</button>
-                        <p class="w-100 py-1 m-0 bg-orange"></p>
-                        <marquee behavior="scroll" direction="right">
-                            <h5 class="bg-color text-center text-white py-2 w-100">&nbsp;&nbsp;Admission!!!
-                                &nbsp;Admission!!!&nbsp;
-                                Admission!!!&nbsp;&nbsp;</h5>
-                        </marquee>
-                        <P class="display-5 text-capitalize">click <a href="{{ route('admission') }}">Here</a> to apply</P>
-                    </div>
-                </div>
-                <div class="carousel-item d-2 animate__animated animate__rotateInUpLeft">
-                    <img src="/image/slide25.jpg" class="d-block w-100" alt="image/school.jpg">
-                    <div class="carousel-caption d-none alert alert-dismissible">
-                        <button type="button" class="close text-color-2 icon-close" data-dismiss="alert">&times;</button>
-                        <p class="w-100 py-1 m-0 bg-orange"></p>
-                        <marquee behavior="scroll" direction="right">
-                            <h5 class="bg-color text-center text-white py-2 w-100">&nbsp;&nbsp;Admission!!!
-                                &nbsp;Admission!!!&nbsp;
-                                Admission!!!&nbsp;&nbsp;</h5>
-                        </marquee>
-                        <P class="display-5 text-capitalize">click <a href="{{ route('admission') }}">Here</a> to apply</P>
-                    </div>
-                </div>
-                <div class="carousel-item d-2 animate__animated animate__rotateInUpLeft">
-                    <img src="/image/slide26.jpg" class="d-block w-100" alt="image/school.jpg">
-                    <div class="carousel-caption d-none alert alert-dismissible">
-                        <button type="button" class="close text-color-2 icon-close" data-dismiss="alert">&times;</button>
-                        <p class="w-100 py-1 m-0 bg-orange"></p>
-                        <marquee behavior="scroll" direction="right">
-                            <h5 class="bg-color text-center text-white py-2 w-100">&nbsp;&nbsp;Admission!!!
-                                &nbsp;Admission!!!&nbsp;
-                                Admission!!!&nbsp;&nbsp;</h5>
-                        </marquee>
-                        <P class="display-5 text-capitalize">click <a href="{{ route('admission') }}">Here</a> to apply</P>
-                    </div>
-                </div>
-                <div class="carousel-item d-2 animate__animated animate__rotateInUpLeft">
-                    <img src="/image/slide27.jpg" class="d-block w-100" alt="image/school.jpg">
-                    <div class="carousel-caption d-none alert alert-dismissible">
-                        <button type="button" class="close text-color-2 icon-close" data-dismiss="alert">&times;</button>
-                        <p class="w-100 py-1 m-0 bg-orange"></p>
-                        <marquee behavior="scroll" direction="right">
-                            <h5 class="bg-color text-center text-white py-2 w-100">&nbsp;&nbsp;Admission!!!
-                                &nbsp;Admission!!!&nbsp;
-                                Admission!!!&nbsp;&nbsp;</h5>
-                        </marquee>
-                        <P class="display-5 text-capitalize">click <a href="{{ route('admission') }}">Here</a> to apply</P>
-                    </div>
-                </div>
-                <div class="carousel-item d-2 animate__animated animate__zoomInDown">
-                    <img src="/image/slide3.jpg" class="d-block w-100" alt="image/school.jpg">
-                    <div class="carousel-caption d-none alert alert-dismissible">
-                        <button type="button" class="close text-color-2 icon-close" data-dismiss="alert">&times;</button>
-                        <p class="w-100 py-1 m-0 bg-orange"></p>
-                        <marquee behavior="scroll" direction="right">
-                            <h5 class="bg-color text-center text-white py-2 w-100">&nbsp;&nbsp;Admission!!!
-                                &nbsp;Admission!!!&nbsp;
-                                Admission!!!&nbsp;&nbsp;</h5>
-                        </marquee>
-                        <P class="display-5 text-capitalize">click <a href="{{ route('admission') }}">Here</a> to apply</P>
-                    </div>
-                </div>
-                <div class="carousel-item d-2 animate__animated animate__zoomInUp">
-                    <img src="/image/slide4.jpg" class="d-block w-100" alt="image/school.jpg">
-                    <div class="carousel-caption d-none alert alert-dismissible">
-                        <button type="button" class="close text-color-2 icon-close" data-dismiss="alert">&times;</button>
-                        <p class="w-100 py-1 m-0 bg-orange"></p>
-                        <marquee behavior="scroll" direction="right">
-                            <h5 class="bg-color text-center text-white py-2 w-100">&nbsp;&nbsp;Admission!!!
-                                &nbsp;Admission!!!&nbsp;
-                                Admission!!!&nbsp;&nbsp;</h5>
-                        </marquee>
-                        <P class="display-5 text-capitalize">click <a href="{{ route('admission') }}">Here</a> to apply</P>
-                    </div>
-                </div>
-                <div class="carousel-item d-2 animate__animated animate__lightSpeedInRight">
-                    <img src="/image/slide5.jpg" class="d-block w-100" alt="image/school.jpg">
-                    <div class="carousel-caption d-none alert alert-dismissible">
-                        <button type="button" class="close text-color-2 icon-close" data-dismiss="alert">&times;</button>
-                        <p class="w-100 py-1 m-0 bg-orange"></p>
-                        <marquee behavior="scroll" direction="right">
-                            <h5 class="bg-color text-center text-white py-2 w-100">&nbsp;&nbsp;Admission!!!
-                                &nbsp;Admission!!!&nbsp;
-                                Admission!!!&nbsp;&nbsp;</h5>
-                        </marquee>
-                        <P class="display-5 text-capitalize">click <a href="{{ route('admission') }}">Here</a> to apply</P>
-                    </div>
-                </div>
-                <div class="carousel-item d-2 animate__animated animate__slideInUp">
-                    <img src="/image/slide6.jpg" class="d-block w-100" alt="image/school.jpg">
-                    <div class="carousel-caption d-none alert alert-dismissible">
-                        <button type="button" class="close text-color-2 icon-close" data-dismiss="alert">&times;</button>
-                        <p class="w-100 py-1 m-0 bg-orange"></p>
-                        <marquee behavior="scroll" direction="right">
-                            <h5 class="bg-color text-center text-white py-2 w-100">&nbsp;&nbsp;Admission!!!
-                                &nbsp;Admission!!!&nbsp;
-                                Admission!!!&nbsp;&nbsp;</h5>
-                        </marquee>
-                        <P class="display-5 text-capitalize">click <a href="{{ route('admission') }}">Here</a> to apply</P>
-                    </div>
-                </div>
-                <div class="carousel-item d-2 animate__animated animate__fadeInDown">
-                    <img src="/image/slide7.jpg" class="d-block w-100" alt="image/school.jpg">
-                    <div class="carousel-caption d-none alert alert-dismissible">
-                        <button type="button" class="close text-color-2 icon-close" data-dismiss="alert">&times;</button>
-                        <p class="w-100 py-1 m-0 bg-orange"></p>
-                        <marquee behavior="scroll" direction="right">
-                            <h5 class="bg-color text-center text-white py-2 w-100">&nbsp;&nbsp;Admission!!!
-                                &nbsp;Admission!!!&nbsp;
-                                Admission!!!&nbsp;&nbsp;</h5>
-                        </marquee>
-                        <P class="display-5 text-capitalize">click <a href="{{ route('admission') }}">Here</a> to apply</P>
-                    </div>
-                </div>
-                <div class="carousel-item d-2 animate__animated animate__shakeY">
-                    <img src="/image/slide8.jpg" class="d-block w-100" alt="image/school.jpg">
-                    <div class="carousel-caption d-none alert alert-dismissible">
-                        <button type="button" class="close text-color-2 icon-close" data-dismiss="alert">&times;</button>
-                        <p class="w-100 py-1 m-0 bg-orange"></p>
-                        <marquee behavior="scroll" direction="right">
-                            <h5 class="bg-color text-center text-white py-2 w-100">&nbsp;&nbsp;Admission!!!
-                                &nbsp;Admission!!!&nbsp;
-                                Admission!!!&nbsp;&nbsp;</h5>
-                        </marquee>
-                        <P class="display-5 text-capitalize">click <a href="{{ route('admission') }}">Here</a> to apply</P>
-                    </div>
-                </div>
-                <div class="carousel-item d-2 animate__animated animate__shakeX">
-                    <img src="/image/slide9.jpg" class="d-block w-100" alt="image/school.jpg">
-                    <div class="carousel-caption d-none alert alert-dismissible">
-                        <button type="button" class="close text-color-2 icon-close" data-dismiss="alert">&times;</button>
-                        <p class="w-100 py-1 m-0 bg-orange"></p>
-                        <marquee behavior="scroll" direction="right">
-                            <h5 class="bg-color text-center text-white py-2 w-100">&nbsp;&nbsp;Admission!!!
-                                &nbsp;Admission!!!&nbsp;
-                                Admission!!!&nbsp;&nbsp;</h5>
-                        </marquee>
-                        <P class="display-5 text-capitalize">click <a href="{{ route('admission') }}">Here</a> to apply</P>
-                    </div>
-                </div>
-                <div class="carousel-item d-2 animate__animated animate__flash">
-                    <img src="/image/slide10.jpg" class="d-block w-100" alt="image/school.jpg">
-                    <div class="carousel-caption d-none alert alert-dismissible">
-                        <button type="button" class="close text-color-2 icon-close" data-dismiss="alert">&times;</button>
-                        <p class="w-100 py-1 m-0 bg-orange"></p>
-                        <marquee behavior="scroll" direction="right">
-                            <h5 class="bg-color text-center text-white py-2 w-100">&nbsp;&nbsp;Admission!!!
-                                &nbsp;Admission!!!&nbsp;
-                                Admission!!!&nbsp;&nbsp;</h5>
-                        </marquee>
-                        <P class="display-5 text-capitalize">click <a href="{{ route('admission') }}">Here</a> to apply</P>
-                    </div>
-                </div>
-                <div class="carousel-item d-2 animate__animated animate__bounceInLeft">
-                    <img src="/image/slide11.jpg" class="d-block w-100" alt="image/school.jpg">
-                    <div class="carousel-caption d-none alert alert-dismissible">
-                        <button type="button" class="close text-color-2 icon-close" data-dismiss="alert">&times;</button>
-                        <p class="w-100 py-1 m-0 bg-orange"></p>
-                        <marquee behavior="scroll" direction="right">
-                            <h5 class="bg-color text-center text-white py-2 w-100">&nbsp;&nbsp;Admission!!!
-                                &nbsp;Admission!!!&nbsp;
-                                Admission!!!&nbsp;&nbsp;</h5>
-                        </marquee>
-                        <P class="display-5 text-capitalize">click <a href="{{ route('admission') }}">Here</a> to apply</P>
-                    </div>
-                </div>
-                <div class="carousel-item d-2 animate__animated animate__bounceInRight">
-                    <img src="/image/slide17.jpg" class="d-block w-100" alt="image/school.jpg">
-                    <div class="carousel-caption d-none alert alert-dismissible">
-                        <button type="button" class="close text-color-2 icon-close" data-dismiss="alert">&times;</button>
-                        <p class="w-100 py-1 m-0 bg-orange"></p>
-                        <marquee behavior="scroll" direction="right">
-                            <h5 class="bg-color text-center text-white py-2 w-100">&nbsp;&nbsp;Admission!!!
-                                &nbsp;Admission!!!&nbsp;
-                                Admission!!!&nbsp;&nbsp;</h5>
-                        </marquee>
-                        <P class="display-5 text-capitalize">click <a href="{{ route('admission') }}">Here</a> to apply</P>
-                    </div>
-                </div>
-                <div class="carousel-item d-2 animate__animated animate__bounceInLeft">
-                    <img src="/image/slide13.jpg" class="d-block w-100" alt="image/school.jpg">
-                    <div class="carousel-caption d-none alert alert-dismissible">
-                        <button type="button" class="close text-color-2 icon-close" data-dismiss="alert">&times;</button>
-                        <p class="w-100 py-1 m-0 bg-orange"></p>
-                        <marquee behavior="scroll" direction="right">
-                            <h5 class="bg-color text-center text-white py-2 w-100">&nbsp;&nbsp;Admission!!!
-                                &nbsp;Admission!!!&nbsp;
-                                Admission!!!&nbsp;&nbsp;</h5>
-                        </marquee>
-                        <P class="display-5 text-capitalize">click <a href="{{ route('admission') }}">Here</a> to apply</P>
-                    </div>
-                </div>
-                <div class="carousel-item d-2 animate__animated animate__bounceInDown">
-                    <img src="/image/slide14.jpg" class="d-block w-100" alt="image/school.jpg">
-                    <div class="carousel-caption d-none alert alert-dismissible">
-                        <button type="button" class="close text-color-2 icon-close" data-dismiss="alert">&times;</button>
-                        <p class="w-100 py-1 m-0 bg-orange"></p>
-                        <marquee behavior="scroll" direction="right">
-                            <h5 class="bg-color text-center text-white py-2 w-100">&nbsp;&nbsp;Admission!!!
-                                &nbsp;Admission!!!&nbsp;
-                                Admission!!!&nbsp;&nbsp;</h5>
-                        </marquee>
-                        <P class="display-5 text-capitalize">click <a href="{{ route('admission') }}">Here</a> to apply</P>
-                    </div>
-                </div>
-                <div class="carousel-item d-2 animate__animated animate__backInUp">
-                    <img src="/image/slide15.jpg" class="d-block w-100" alt="image/school.jpg">
-                    <div class="carousel-caption d-none alert alert-dismissible">
-                        <button type="button" class="close text-color-2 icon-close" data-dismiss="alert">&times;</button>
-                        <p class="w-100 py-1 m-0 bg-orange"></p>
-                        <marquee behavior="scroll" direction="right">
-                            <h5 class="bg-color text-center text-white py-2 w-100">&nbsp;&nbsp;Admission!!!
-                                &nbsp;Admission!!!&nbsp;
-                                Admission!!!&nbsp;&nbsp;</h5>
-                        </marquee>
-                        <P class="display-5 text-capitalize">click <a href="{{ route('admission') }}">Here</a> to apply</P>
-                    </div>
-                </div>
-                <div class="carousel-item d-2 animate__animated animate__backInRight">
-                    <img src="/image/slide16.jpg" class="d-block w-100" alt="image/school.jpg">
-                    <div class="carousel-caption d-none alert alert-dismissible">
-                        <button type="button" class="close text-color-2 icon-close" data-dismiss="alert">&times;</button>
-                        <p class="w-100 py-1 m-0 bg-orange"></p>
-                        <marquee behavior="scroll" direction="right">
-                            <h5 class="bg-color text-center text-white py-2 w-100">&nbsp;&nbsp;Admission!!!
-                                &nbsp;Admission!!!&nbsp;
-                                Admission!!!&nbsp;&nbsp;</h5>
-                        </marquee>
-                        <P class="display-5 text-capitalize">click <a href="{{ route('admission') }}">Here</a> to apply</P>
-                    </div>
-                </div>
-                <div class="carousel-item d-2 animate__animated animate__backInLeft">
-                    <img src="/image/slide17.jpg" class="d-block w-100" alt="image/school.jpg">
-                    <div class="carousel-caption d-none alert alert-dismissible">
-                        <button type="button" class="close text-color-2 icon-close" data-dismiss="alert">&times;</button>
-                        <p class="w-100 py-1 m-0 bg-orange"></p>
-                        <marquee behavior="scroll" direction="right">
-                            <h5 class="bg-color text-center text-white py-2 w-100">&nbsp;&nbsp;Admission!!!
-                                &nbsp;Admission!!!&nbsp;
-                                Admission!!!&nbsp;&nbsp;</h5>
-                        </marquee>
-                        <P class="display-5 text-capitalize">click <a href="{{ route('admission') }}">Here</a> to apply</P>
-                    </div>
-                </div>
-                <div class="carousel-item d-2 animate__animated animate__backInDown">
-                    <img src="/image/slide18.jpg" class="d-block w-100" alt="image/school.jpg">
-                    <div class="carousel-caption d-none alert alert-dismissible">
-                        <button type="button" class="close text-color-2 icon-close" data-dismiss="alert">&times;</button>
-                        <p class="w-100 py-1 m-0 bg-orange"></p>
-                        <marquee behavior="scroll" direction="right">
-                            <h5 class="bg-color text-center text-white py-2 w-100">&nbsp;&nbsp;Admission!!!
-                                &nbsp;Admission!!!&nbsp;
-                                Admission!!!&nbsp;&nbsp;</h5>
-                        </marquee>
-                        <P class="display-5 text-capitalize">click <a href="{{ route('admission') }}">Here</a> to apply</P>
-                    </div>
-                </div>
-                <div class="carousel-item d-2 animate__animated animate__zoomInDown">
-                    <img src="/image/slide19.jpg" class="d-block w-100" alt="image/school.jpg">
-                    <div class="carousel-caption d-none alert alert-dismissible">
-                        <button type="button" class="close text-color-2 icon-close" data-dismiss="alert">&times;</button>
-                        <p class="w-100 py-1 m-0 bg-orange"></p>
-                        <marquee behavior="scroll" direction="right">
-                            <h5 class="bg-color text-center text-white py-2 w-100">&nbsp;&nbsp;Admission!!!
-                                &nbsp;Admission!!!&nbsp;
-                                Admission!!!&nbsp;&nbsp;</h5>
-                        </marquee>
-                        <P class="display-5 text-capitalize">click <a href="{{ route('admission') }}">Here</a> to apply</P>
-                    </div>
-                </div>
-                <div class="carousel-item d-2 animate__animated animate__heartBeat">
-                    <img src="/image/slide20.jpg" class="d-block w-100" alt="image/school.jpg">
-                    <div class="carousel-caption d-none alert alert-dismissible">
-                        <button type="button" class="close text-color-2 icon-close" data-dismiss="alert">&times;</button>
-                        <p class="w-100 py-1 m-0 bg-orange"></p>
-                        <marquee behavior="scroll" direction="right">
-                            <h5 class="bg-color text-center text-white py-2 w-100">&nbsp;&nbsp;Admission!!!
-                                &nbsp;Admission!!!&nbsp;
-                                Admission!!!&nbsp;&nbsp;</h5>
-                        </marquee>
-                        <P class="display-5 text-capitalize">click <a href="{{ route('admission') }}">Here</a> to apply</P>
-                    </div>
-                </div>
-                <div class="carousel-item d-2 animate__animated animate__lightSpeedInRight">
-                    <img src="/image/slide22.jpg" class="d-block w-100" alt="image/school.jpg">
-                    <div class="carousel-caption d-none alert alert-dismissible">
-                        <button type="button" class="close text-color-2 icon-close" data-dismiss="alert">&times;</button>
-                        <p class="w-100 py-1 m-0 bg-orange"></p>
-                        <marquee behavior="scroll" direction="right">
-                            <h5 class="bg-color text-center text-white py-2 w-100">&nbsp;&nbsp;Admission!!!
-                                &nbsp;Admission!!!&nbsp;
-                                Admission!!!&nbsp;&nbsp;</h5>
-                        </marquee>
-                        <P class="display-5 text-capitalize">click <a href="{{ route('admission') }}">Here</a> to apply</P>
-                    </div>
-                </div>
-                <div class="carousel-item d-2 animate__animated animate__lightSpeedInRight">
-                    <img src="/image/slide23.jpg" class="d-block w-100" alt="image/school.jpg">
-                    <div class="carousel-caption d-none alert alert-dismissible">
-                        <button type="button" class="close text-color-2 icon-close" data-dismiss="alert">&times;</button>
-                        <p class="w-100 py-1 m-0 bg-orange"></p>
-                        <marquee behavior="scroll" direction="right">
-                            <h5 class="bg-color text-center text-white py-2 w-100">&nbsp;&nbsp;Admission!!!
-                                &nbsp;Admission!!!&nbsp;
-                                Admission!!!&nbsp;&nbsp;</h5>
-                        </marquee>
-                        <P class="display-5 text-capitalize">click <a href="{{ route('admission') }}">Here</a> to apply</P>
-                    </div>
+
+    <!-- slideshow -->
+    {{-- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="9"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="10"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="11"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="12"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="13"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="14"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="15"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="16"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="17"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="18"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="19"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="20"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="21"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item d-2 animate__animated animate__rotateInUpLeft active">
+                <img src="/image/slide24.jpg" class="d-block w-100" alt="image/school.jpg">
+                <div class="carousel-caption alert alert-dismissible">
+                    <button type="button" class="close text-color-2 icon-close" data-dismiss="alert">&times;</button>
+                    <p class="w-100 py-1 m-0 bg-orange"></p>
+                    <marquee behavior="scroll" direction="right">
+                        <h5 class="bg-color text-center text-white py-2 w-100">&nbsp;&nbsp;Admission!!!
+                            &nbsp;Admission!!!&nbsp;
+                            Admission!!!&nbsp;&nbsp;</h5>
+                    </marquee>
+                    <P class="display-5 text-capitalize">click <a href="{{ route('admission') }}">Here</a> to apply</P>
                 </div>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
-        </div> --}}
+            <div class="carousel-item d-2 animate__animated animate__backInDown">
+                <img src="/image/slide21.jpg" class="d-block w-100" alt="image/school.jpg">
+                <div class="carousel-caption d-none alert alert-dismissible">
+                    <button type="button" class="close text-color-2 icon-close" data-dismiss="alert">&times;</button>
+                    <p class="w-100 py-1 m-0 bg-orange"></p>
+                    <marquee behavior="scroll" direction="right">
+                        <h5 class="bg-color text-center text-white py-2 w-100">&nbsp;&nbsp;Admission!!!
+                            &nbsp;Admission!!!&nbsp;
+                            Admission!!!&nbsp;&nbsp;</h5>
+                    </marquee>
+                    <P class="display-5">click <a href="{{ route('admission') }}">Here</a> to apply</P>
+                </div>
+            </div>
+            <div class="carousel-item d-2 animate__animated animate__slideInUp">
+                <img src="/image/slide1.jpg" class="d-block w-100" alt="image/school.jpg">
+                <div class="carousel-caption d-none alert alert-dismissible">
+                    <button type="button" class="close text-color-2 icon-close" data-dismiss="alert">&times;</button>
+                    <p class="w-100 py-1 m-0 bg-orange"></p>
+                    <marquee behavior="scroll" direction="right">
+                        <h5 class="bg-color text-center text-white py-2 w-100">&nbsp;&nbsp;Admission!!!
+                            &nbsp;Admission!!!&nbsp;
+                            Admission!!!&nbsp;&nbsp;</h5>
+                    </marquee>
+                    <P class="display-5 text-capitalize">click <a href="{{ route('admission') }}">Here</a> to apply</P>
+                </div>
+            </div>
+            <div class="carousel-item d-2 animate__animated animate__rotateInUpLeft">
+                <img src="/image/slide2.jpg" class="d-block w-100" alt="image/school.jpg">
+                <div class="carousel-caption d-none alert alert-dismissible">
+                    <button type="button" class="close text-color-2 icon-close" data-dismiss="alert">&times;</button>
+                    <p class="w-100 py-1 m-0 bg-orange"></p>
+                    <marquee behavior="scroll" direction="right">
+                        <h5 class="bg-color text-center text-white py-2 w-100">&nbsp;&nbsp;Admission!!!
+                            &nbsp;Admission!!!&nbsp;
+                            Admission!!!&nbsp;&nbsp;</h5>
+                    </marquee>
+                    <P class="display-5 text-capitalize">click <a href="{{ route('admission') }}">Here</a> to apply</P>
+                </div>
+            </div>
+            <div class="carousel-item d-2 animate__animated animate__rotateInUpLeft">
+                <img src="/image/slide25.jpg" class="d-block w-100" alt="image/school.jpg">
+                <div class="carousel-caption d-none alert alert-dismissible">
+                    <button type="button" class="close text-color-2 icon-close" data-dismiss="alert">&times;</button>
+                    <p class="w-100 py-1 m-0 bg-orange"></p>
+                    <marquee behavior="scroll" direction="right">
+                        <h5 class="bg-color text-center text-white py-2 w-100">&nbsp;&nbsp;Admission!!!
+                            &nbsp;Admission!!!&nbsp;
+                            Admission!!!&nbsp;&nbsp;</h5>
+                    </marquee>
+                    <P class="display-5 text-capitalize">click <a href="{{ route('admission') }}">Here</a> to apply</P>
+                </div>
+            </div>
+            <div class="carousel-item d-2 animate__animated animate__rotateInUpLeft">
+                <img src="/image/slide26.jpg" class="d-block w-100" alt="image/school.jpg">
+                <div class="carousel-caption d-none alert alert-dismissible">
+                    <button type="button" class="close text-color-2 icon-close" data-dismiss="alert">&times;</button>
+                    <p class="w-100 py-1 m-0 bg-orange"></p>
+                    <marquee behavior="scroll" direction="right">
+                        <h5 class="bg-color text-center text-white py-2 w-100">&nbsp;&nbsp;Admission!!!
+                            &nbsp;Admission!!!&nbsp;
+                            Admission!!!&nbsp;&nbsp;</h5>
+                    </marquee>
+                    <P class="display-5 text-capitalize">click <a href="{{ route('admission') }}">Here</a> to apply</P>
+                </div>
+            </div>
+            <div class="carousel-item d-2 animate__animated animate__rotateInUpLeft">
+                <img src="/image/slide27.jpg" class="d-block w-100" alt="image/school.jpg">
+                <div class="carousel-caption d-none alert alert-dismissible">
+                    <button type="button" class="close text-color-2 icon-close" data-dismiss="alert">&times;</button>
+                    <p class="w-100 py-1 m-0 bg-orange"></p>
+                    <marquee behavior="scroll" direction="right">
+                        <h5 class="bg-color text-center text-white py-2 w-100">&nbsp;&nbsp;Admission!!!
+                            &nbsp;Admission!!!&nbsp;
+                            Admission!!!&nbsp;&nbsp;</h5>
+                    </marquee>
+                    <P class="display-5 text-capitalize">click <a href="{{ route('admission') }}">Here</a> to apply</P>
+                </div>
+            </div>
+            <div class="carousel-item d-2 animate__animated animate__zoomInDown">
+                <img src="/image/slide3.jpg" class="d-block w-100" alt="image/school.jpg">
+                <div class="carousel-caption d-none alert alert-dismissible">
+                    <button type="button" class="close text-color-2 icon-close" data-dismiss="alert">&times;</button>
+                    <p class="w-100 py-1 m-0 bg-orange"></p>
+                    <marquee behavior="scroll" direction="right">
+                        <h5 class="bg-color text-center text-white py-2 w-100">&nbsp;&nbsp;Admission!!!
+                            &nbsp;Admission!!!&nbsp;
+                            Admission!!!&nbsp;&nbsp;</h5>
+                    </marquee>
+                    <P class="display-5 text-capitalize">click <a href="{{ route('admission') }}">Here</a> to apply</P>
+                </div>
+            </div>
+            <div class="carousel-item d-2 animate__animated animate__zoomInUp">
+                <img src="/image/slide4.jpg" class="d-block w-100" alt="image/school.jpg">
+                <div class="carousel-caption d-none alert alert-dismissible">
+                    <button type="button" class="close text-color-2 icon-close" data-dismiss="alert">&times;</button>
+                    <p class="w-100 py-1 m-0 bg-orange"></p>
+                    <marquee behavior="scroll" direction="right">
+                        <h5 class="bg-color text-center text-white py-2 w-100">&nbsp;&nbsp;Admission!!!
+                            &nbsp;Admission!!!&nbsp;
+                            Admission!!!&nbsp;&nbsp;</h5>
+                    </marquee>
+                    <P class="display-5 text-capitalize">click <a href="{{ route('admission') }}">Here</a> to apply</P>
+                </div>
+            </div>
+            <div class="carousel-item d-2 animate__animated animate__lightSpeedInRight">
+                <img src="/image/slide5.jpg" class="d-block w-100" alt="image/school.jpg">
+                <div class="carousel-caption d-none alert alert-dismissible">
+                    <button type="button" class="close text-color-2 icon-close" data-dismiss="alert">&times;</button>
+                    <p class="w-100 py-1 m-0 bg-orange"></p>
+                    <marquee behavior="scroll" direction="right">
+                        <h5 class="bg-color text-center text-white py-2 w-100">&nbsp;&nbsp;Admission!!!
+                            &nbsp;Admission!!!&nbsp;
+                            Admission!!!&nbsp;&nbsp;</h5>
+                    </marquee>
+                    <P class="display-5 text-capitalize">click <a href="{{ route('admission') }}">Here</a> to apply</P>
+                </div>
+            </div>
+            <div class="carousel-item d-2 animate__animated animate__slideInUp">
+                <img src="/image/slide6.jpg" class="d-block w-100" alt="image/school.jpg">
+                <div class="carousel-caption d-none alert alert-dismissible">
+                    <button type="button" class="close text-color-2 icon-close" data-dismiss="alert">&times;</button>
+                    <p class="w-100 py-1 m-0 bg-orange"></p>
+                    <marquee behavior="scroll" direction="right">
+                        <h5 class="bg-color text-center text-white py-2 w-100">&nbsp;&nbsp;Admission!!!
+                            &nbsp;Admission!!!&nbsp;
+                            Admission!!!&nbsp;&nbsp;</h5>
+                    </marquee>
+                    <P class="display-5 text-capitalize">click <a href="{{ route('admission') }}">Here</a> to apply</P>
+                </div>
+            </div>
+            <div class="carousel-item d-2 animate__animated animate__fadeInDown">
+                <img src="/image/slide7.jpg" class="d-block w-100" alt="image/school.jpg">
+                <div class="carousel-caption d-none alert alert-dismissible">
+                    <button type="button" class="close text-color-2 icon-close" data-dismiss="alert">&times;</button>
+                    <p class="w-100 py-1 m-0 bg-orange"></p>
+                    <marquee behavior="scroll" direction="right">
+                        <h5 class="bg-color text-center text-white py-2 w-100">&nbsp;&nbsp;Admission!!!
+                            &nbsp;Admission!!!&nbsp;
+                            Admission!!!&nbsp;&nbsp;</h5>
+                    </marquee>
+                    <P class="display-5 text-capitalize">click <a href="{{ route('admission') }}">Here</a> to apply</P>
+                </div>
+            </div>
+            <div class="carousel-item d-2 animate__animated animate__shakeY">
+                <img src="/image/slide8.jpg" class="d-block w-100" alt="image/school.jpg">
+                <div class="carousel-caption d-none alert alert-dismissible">
+                    <button type="button" class="close text-color-2 icon-close" data-dismiss="alert">&times;</button>
+                    <p class="w-100 py-1 m-0 bg-orange"></p>
+                    <marquee behavior="scroll" direction="right">
+                        <h5 class="bg-color text-center text-white py-2 w-100">&nbsp;&nbsp;Admission!!!
+                            &nbsp;Admission!!!&nbsp;
+                            Admission!!!&nbsp;&nbsp;</h5>
+                    </marquee>
+                    <P class="display-5 text-capitalize">click <a href="{{ route('admission') }}">Here</a> to apply</P>
+                </div>
+            </div>
+            <div class="carousel-item d-2 animate__animated animate__shakeX">
+                <img src="/image/slide9.jpg" class="d-block w-100" alt="image/school.jpg">
+                <div class="carousel-caption d-none alert alert-dismissible">
+                    <button type="button" class="close text-color-2 icon-close" data-dismiss="alert">&times;</button>
+                    <p class="w-100 py-1 m-0 bg-orange"></p>
+                    <marquee behavior="scroll" direction="right">
+                        <h5 class="bg-color text-center text-white py-2 w-100">&nbsp;&nbsp;Admission!!!
+                            &nbsp;Admission!!!&nbsp;
+                            Admission!!!&nbsp;&nbsp;</h5>
+                    </marquee>
+                    <P class="display-5 text-capitalize">click <a href="{{ route('admission') }}">Here</a> to apply</P>
+                </div>
+            </div>
+            <div class="carousel-item d-2 animate__animated animate__flash">
+                <img src="/image/slide10.jpg" class="d-block w-100" alt="image/school.jpg">
+                <div class="carousel-caption d-none alert alert-dismissible">
+                    <button type="button" class="close text-color-2 icon-close" data-dismiss="alert">&times;</button>
+                    <p class="w-100 py-1 m-0 bg-orange"></p>
+                    <marquee behavior="scroll" direction="right">
+                        <h5 class="bg-color text-center text-white py-2 w-100">&nbsp;&nbsp;Admission!!!
+                            &nbsp;Admission!!!&nbsp;
+                            Admission!!!&nbsp;&nbsp;</h5>
+                    </marquee>
+                    <P class="display-5 text-capitalize">click <a href="{{ route('admission') }}">Here</a> to apply</P>
+                </div>
+            </div>
+            <div class="carousel-item d-2 animate__animated animate__bounceInLeft">
+                <img src="/image/slide11.jpg" class="d-block w-100" alt="image/school.jpg">
+                <div class="carousel-caption d-none alert alert-dismissible">
+                    <button type="button" class="close text-color-2 icon-close" data-dismiss="alert">&times;</button>
+                    <p class="w-100 py-1 m-0 bg-orange"></p>
+                    <marquee behavior="scroll" direction="right">
+                        <h5 class="bg-color text-center text-white py-2 w-100">&nbsp;&nbsp;Admission!!!
+                            &nbsp;Admission!!!&nbsp;
+                            Admission!!!&nbsp;&nbsp;</h5>
+                    </marquee>
+                    <P class="display-5 text-capitalize">click <a href="{{ route('admission') }}">Here</a> to apply</P>
+                </div>
+            </div>
+            <div class="carousel-item d-2 animate__animated animate__bounceInRight">
+                <img src="/image/slide17.jpg" class="d-block w-100" alt="image/school.jpg">
+                <div class="carousel-caption d-none alert alert-dismissible">
+                    <button type="button" class="close text-color-2 icon-close" data-dismiss="alert">&times;</button>
+                    <p class="w-100 py-1 m-0 bg-orange"></p>
+                    <marquee behavior="scroll" direction="right">
+                        <h5 class="bg-color text-center text-white py-2 w-100">&nbsp;&nbsp;Admission!!!
+                            &nbsp;Admission!!!&nbsp;
+                            Admission!!!&nbsp;&nbsp;</h5>
+                    </marquee>
+                    <P class="display-5 text-capitalize">click <a href="{{ route('admission') }}">Here</a> to apply</P>
+                </div>
+            </div>
+            <div class="carousel-item d-2 animate__animated animate__bounceInLeft">
+                <img src="/image/slide13.jpg" class="d-block w-100" alt="image/school.jpg">
+                <div class="carousel-caption d-none alert alert-dismissible">
+                    <button type="button" class="close text-color-2 icon-close" data-dismiss="alert">&times;</button>
+                    <p class="w-100 py-1 m-0 bg-orange"></p>
+                    <marquee behavior="scroll" direction="right">
+                        <h5 class="bg-color text-center text-white py-2 w-100">&nbsp;&nbsp;Admission!!!
+                            &nbsp;Admission!!!&nbsp;
+                            Admission!!!&nbsp;&nbsp;</h5>
+                    </marquee>
+                    <P class="display-5 text-capitalize">click <a href="{{ route('admission') }}">Here</a> to apply</P>
+                </div>
+            </div>
+            <div class="carousel-item d-2 animate__animated animate__bounceInDown">
+                <img src="/image/slide14.jpg" class="d-block w-100" alt="image/school.jpg">
+                <div class="carousel-caption d-none alert alert-dismissible">
+                    <button type="button" class="close text-color-2 icon-close" data-dismiss="alert">&times;</button>
+                    <p class="w-100 py-1 m-0 bg-orange"></p>
+                    <marquee behavior="scroll" direction="right">
+                        <h5 class="bg-color text-center text-white py-2 w-100">&nbsp;&nbsp;Admission!!!
+                            &nbsp;Admission!!!&nbsp;
+                            Admission!!!&nbsp;&nbsp;</h5>
+                    </marquee>
+                    <P class="display-5 text-capitalize">click <a href="{{ route('admission') }}">Here</a> to apply</P>
+                </div>
+            </div>
+            <div class="carousel-item d-2 animate__animated animate__backInUp">
+                <img src="/image/slide15.jpg" class="d-block w-100" alt="image/school.jpg">
+                <div class="carousel-caption d-none alert alert-dismissible">
+                    <button type="button" class="close text-color-2 icon-close" data-dismiss="alert">&times;</button>
+                    <p class="w-100 py-1 m-0 bg-orange"></p>
+                    <marquee behavior="scroll" direction="right">
+                        <h5 class="bg-color text-center text-white py-2 w-100">&nbsp;&nbsp;Admission!!!
+                            &nbsp;Admission!!!&nbsp;
+                            Admission!!!&nbsp;&nbsp;</h5>
+                    </marquee>
+                    <P class="display-5 text-capitalize">click <a href="{{ route('admission') }}">Here</a> to apply</P>
+                </div>
+            </div>
+            <div class="carousel-item d-2 animate__animated animate__backInRight">
+                <img src="/image/slide16.jpg" class="d-block w-100" alt="image/school.jpg">
+                <div class="carousel-caption d-none alert alert-dismissible">
+                    <button type="button" class="close text-color-2 icon-close" data-dismiss="alert">&times;</button>
+                    <p class="w-100 py-1 m-0 bg-orange"></p>
+                    <marquee behavior="scroll" direction="right">
+                        <h5 class="bg-color text-center text-white py-2 w-100">&nbsp;&nbsp;Admission!!!
+                            &nbsp;Admission!!!&nbsp;
+                            Admission!!!&nbsp;&nbsp;</h5>
+                    </marquee>
+                    <P class="display-5 text-capitalize">click <a href="{{ route('admission') }}">Here</a> to apply</P>
+                </div>
+            </div>
+            <div class="carousel-item d-2 animate__animated animate__backInLeft">
+                <img src="/image/slide17.jpg" class="d-block w-100" alt="image/school.jpg">
+                <div class="carousel-caption d-none alert alert-dismissible">
+                    <button type="button" class="close text-color-2 icon-close" data-dismiss="alert">&times;</button>
+                    <p class="w-100 py-1 m-0 bg-orange"></p>
+                    <marquee behavior="scroll" direction="right">
+                        <h5 class="bg-color text-center text-white py-2 w-100">&nbsp;&nbsp;Admission!!!
+                            &nbsp;Admission!!!&nbsp;
+                            Admission!!!&nbsp;&nbsp;</h5>
+                    </marquee>
+                    <P class="display-5 text-capitalize">click <a href="{{ route('admission') }}">Here</a> to apply</P>
+                </div>
+            </div>
+            <div class="carousel-item d-2 animate__animated animate__backInDown">
+                <img src="/image/slide18.jpg" class="d-block w-100" alt="image/school.jpg">
+                <div class="carousel-caption d-none alert alert-dismissible">
+                    <button type="button" class="close text-color-2 icon-close" data-dismiss="alert">&times;</button>
+                    <p class="w-100 py-1 m-0 bg-orange"></p>
+                    <marquee behavior="scroll" direction="right">
+                        <h5 class="bg-color text-center text-white py-2 w-100">&nbsp;&nbsp;Admission!!!
+                            &nbsp;Admission!!!&nbsp;
+                            Admission!!!&nbsp;&nbsp;</h5>
+                    </marquee>
+                    <P class="display-5 text-capitalize">click <a href="{{ route('admission') }}">Here</a> to apply</P>
+                </div>
+            </div>
+            <div class="carousel-item d-2 animate__animated animate__zoomInDown">
+                <img src="/image/slide19.jpg" class="d-block w-100" alt="image/school.jpg">
+                <div class="carousel-caption d-none alert alert-dismissible">
+                    <button type="button" class="close text-color-2 icon-close" data-dismiss="alert">&times;</button>
+                    <p class="w-100 py-1 m-0 bg-orange"></p>
+                    <marquee behavior="scroll" direction="right">
+                        <h5 class="bg-color text-center text-white py-2 w-100">&nbsp;&nbsp;Admission!!!
+                            &nbsp;Admission!!!&nbsp;
+                            Admission!!!&nbsp;&nbsp;</h5>
+                    </marquee>
+                    <P class="display-5 text-capitalize">click <a href="{{ route('admission') }}">Here</a> to apply</P>
+                </div>
+            </div>
+            <div class="carousel-item d-2 animate__animated animate__heartBeat">
+                <img src="/image/slide20.jpg" class="d-block w-100" alt="image/school.jpg">
+                <div class="carousel-caption d-none alert alert-dismissible">
+                    <button type="button" class="close text-color-2 icon-close" data-dismiss="alert">&times;</button>
+                    <p class="w-100 py-1 m-0 bg-orange"></p>
+                    <marquee behavior="scroll" direction="right">
+                        <h5 class="bg-color text-center text-white py-2 w-100">&nbsp;&nbsp;Admission!!!
+                            &nbsp;Admission!!!&nbsp;
+                            Admission!!!&nbsp;&nbsp;</h5>
+                    </marquee>
+                    <P class="display-5 text-capitalize">click <a href="{{ route('admission') }}">Here</a> to apply</P>
+                </div>
+            </div>
+            <div class="carousel-item d-2 animate__animated animate__lightSpeedInRight">
+                <img src="/image/slide22.jpg" class="d-block w-100" alt="image/school.jpg">
+                <div class="carousel-caption d-none alert alert-dismissible">
+                    <button type="button" class="close text-color-2 icon-close" data-dismiss="alert">&times;</button>
+                    <p class="w-100 py-1 m-0 bg-orange"></p>
+                    <marquee behavior="scroll" direction="right">
+                        <h5 class="bg-color text-center text-white py-2 w-100">&nbsp;&nbsp;Admission!!!
+                            &nbsp;Admission!!!&nbsp;
+                            Admission!!!&nbsp;&nbsp;</h5>
+                    </marquee>
+                    <P class="display-5 text-capitalize">click <a href="{{ route('admission') }}">Here</a> to apply</P>
+                </div>
+            </div>
+            <div class="carousel-item d-2 animate__animated animate__lightSpeedInRight">
+                <img src="/image/slide23.jpg" class="d-block w-100" alt="image/school.jpg">
+                <div class="carousel-caption d-none alert alert-dismissible">
+                    <button type="button" class="close text-color-2 icon-close" data-dismiss="alert">&times;</button>
+                    <p class="w-100 py-1 m-0 bg-orange"></p>
+                    <marquee behavior="scroll" direction="right">
+                        <h5 class="bg-color text-center text-white py-2 w-100">&nbsp;&nbsp;Admission!!!
+                            &nbsp;Admission!!!&nbsp;
+                            Admission!!!&nbsp;&nbsp;</h5>
+                    </marquee>
+                    <P class="display-5 text-capitalize">click <a href="{{ route('admission') }}">Here</a> to apply</P>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div> --}}
     </div>
 
     <!-- about and calender -->
