@@ -484,7 +484,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <iframe height="315" src="https://www.youtube.com/embed/2i4CbCINjWA" frameborder="0"
+                    <iframe height="315" src="https://www.youtube.com/embed/EZAkP8jP5fY" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen class="w-100"></iframe>
                 </div>
