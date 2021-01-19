@@ -2,39 +2,16 @@
 @section('title', 'Acce-Abuja')
 @section('content')
     <div class="container-fluid m-0 p-0">
-
-        <div class="alert alert-primary alert-dismissible fade show stay news" role="alert">
-            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-                <span class="sr-only">Close</span>
-            </button>
-            <h5 class="text-color text-uppercase">Constitution of Acce Abuja Recruitment Committee</h5>
-            <p>The proprietor of Al-Ansar Centre for Comprehensive Education (ACCE), Abuja, Dr. M. K. Dikwa,mni has approved
-                the immediate constitution of a 12-man Committee to oversee the recruitment of staff and enrollment of
-                pupils and students into the School.</p>
-            <p>In a statement made available through the Head of Operation of Al-Ansar Foundation Mr. Shehu Mohammed, on
-                Friday 30th October 2020, that the committee would be officially inaugurated on Monday 2nd November 2020.
-            </p>
-            <p>The proprietor charged the Committee to live to its mandate of making sure that ACCE provides equal
-                opportunity and fair and equitable treatment in the recruitment process to all prospective applicants
-                without regard to race, colour, religion, sex, nationality, age, disability, political affiliation, marital
-                status or other sentiments.</p>
-            <p>The Committee is expected to ensure smooth conduct of the processes that will lead to the emergence of high
-                skilled and qualified personnel that would occupy relevant positions in the school as the institution plans
-                to kick-off its first academic session in January, 2021.
-                Moreso, the Committee is obliged to carry out this assignment and report back to the Board of Trustees of
-                the School within 3 weeks from the day of its inauguration. <br>
-                Signed <br>
-                Information officer <br>
-                Al-Ansar Foundation</p>
-        </div>
+{{--  --}}
 
         <div class="bg-orange m-0 p-1">
             <p class="al-ansar m-0 text-white text-center text-sm-left d-md-none">Al-Ansar Center for Comprehensive
                 Education</p>
         </div>
+        {{-- <iframe width="1280" height="720" src="https://www.youtube.com/embed/EZAkP8jP5fY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> --}}
+        <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;"> <iframe style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden" frameborder="0" type="text/html" src="https://www.youtube.com/embed/EZAkP8jP5fY?autoplay=1" width="100%" height="80%" allowfullscreen allow="autoplay"> </iframe> </div>
         <!-- slideshow -->
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        {{-- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -420,7 +397,7 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
             </a>
-        </div>
+        </div> --}}
     </div>
 
     <!-- about and calender -->
