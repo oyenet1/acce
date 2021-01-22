@@ -2,8 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\ContactMail;
 use App\Models\Contact;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 // Import PHPMailer classes into the global namespace
 // These must be at the top of your script, not inside a function
 use PHPMailer\PHPMailer\Exception;
@@ -38,7 +40,24 @@ class ContactController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+
+     public function store(Request $request)
+     {
+        $data = request()->validate([
+            'name' => 'required',
+            'email' => ['required', 'email'],
+            'phone' => ['required', 'digits:10'],
+            'subject' => 'required',
+            'message' => ['required', 'min:7', 'max:2000'],
+        ]);
+
+        Mail::to(env('MAIL_USERNAME'))->send(new ContactMail($data['name'], $data['email'], $data['phone'], $data['message']));
+
+        Contact::create($data);
+
+        return redirect()->route('contact')->with('success', 'Message has been sent. Thank You for contacting us.');
+     }
+    public function storeMAil(Request $request)
     {
         //
 

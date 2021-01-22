@@ -24,8 +24,8 @@ class ContactMail extends Mailable
     {
         //
         $this->name = $name;
-        $this->phone = $phone;
         $this->email = $email;
+        $this->phone = $phone;
         $this->message = $message;
     }
 
@@ -36,6 +36,6 @@ class ContactMail extends Mailable
      */
     public function build()
     {
-        return $this->view('maileclipse::templates.contacts');
+        return $this->view('maileclipse::templates.contactsEmail');
     }
 }
