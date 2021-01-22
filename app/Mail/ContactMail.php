@@ -14,19 +14,21 @@ class ContactMail extends Mailable
     public $email;
     public $phone;
     public $message;
+    public $subject;
 
     /**
      * Create a new message instance.
      *
      * @return void
      */
-    public function __construct($name, $email, $phone, $message)
+    public function __construct($name, $email, $phone, $message, $subject)
     {
         //
         $this->name = $name;
         $this->email = $email;
         $this->phone = $phone;
         $this->message = $message;
+        $this->subject = $subject;
     }
 
     /**
@@ -36,6 +38,6 @@ class ContactMail extends Mailable
      */
     public function build()
     {
-        return $this->view('maileclipse::templates.contactsEmail');
+        return $this->subject($this->subject)->view('maileclipse::templates.contactsEmail');
     }
 }

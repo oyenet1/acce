@@ -51,7 +51,7 @@ class ContactController extends Controller
             'message' => ['required', 'min:7', 'max:2000'],
         ]);
 
-        Mail::to(env('MAIL_USERNAME'))->send(new ContactMail($data['name'], $data['email'], $data['phone'], $data['message']));
+        Mail::to(env('MAIL_USERNAME'))->send(new ContactMail($data['name'], $data['email'], $data['phone'], $data['message'], $data['subject']));
 
         Contact::create($data);
 

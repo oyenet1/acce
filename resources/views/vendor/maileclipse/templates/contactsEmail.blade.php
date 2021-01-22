@@ -372,8 +372,12 @@
 <tbody>
 <tr>
 <td class="body-text-cell" style="width: 423px;">
-<p>Someone just sent a message to you via our contact page.</p>
-<p>click the button below to check</p>
+<p>Someone just sent a message to you via our contact page with the details below.</p>
+<p><b>Name:&nbsp;</b>{{ $name }}</p>
+<p><b>Email:&nbsp;</b>{{ $email }}</p>
+<p><b>Phone Number: </b>0{{ $phone }}</p>
+<p><b>Message:&nbsp;</b>{{ $message }}</p>
+<p>click the button below to check to view in messages box.</p>
 </td>
 </tr>
 </tbody>
@@ -384,7 +388,7 @@
 <tr>
 <td class="body-signature-cell">
 <p>Kindly reply,</p>
-<p class="body-signature">ACCE-ABUJA IT-DEPARTMENT</p>
+<p class="body-signature"><i><font color="#003973">ACCE-ABUJA</font></i>(IT-DEPARTMENT)</p>
 </td>
 </tr>
 </tbody>
