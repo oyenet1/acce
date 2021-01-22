@@ -49908,10 +49908,10 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\github\acce\resources\js\app.js */"./resources/js/app.js");
-__webpack_require__(/*! C:\github\acce\resources\sass\app.scss */"./resources/sass/app.scss");
-__webpack_require__(/*! C:\github\acce\resources\sass\main.scss */"./resources/sass/main.scss");
-module.exports = __webpack_require__(/*! C:\github\acce\resources\sass\admin.scss */"./resources/sass/admin.scss");
+__webpack_require__(/*! C:\Users\chris\Documents\Github\acce\resources\js\app.js */"./resources/js/app.js");
+__webpack_require__(/*! C:\Users\chris\Documents\Github\acce\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\Users\chris\Documents\Github\acce\resources\sass\main.scss */"./resources/sass/main.scss");
+module.exports = __webpack_require__(/*! C:\Users\chris\Documents\Github\acce\resources\sass\admin.scss */"./resources/sass/admin.scss");
 
 
 /***/ })
