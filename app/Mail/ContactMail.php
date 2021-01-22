@@ -10,25 +10,17 @@ use Illuminate\Queue\SerializesModels;
 class ContactMail extends Mailable
 {
     use Queueable, SerializesModels;
-    public $name;
-    public $email;
-    public $phone;
-    public $message;
-    public $subject;
+    public $data;
 
     /**
      * Create a new message instance.
      *
      * @return void
      */
-    public function __construct($name, $email, $phone, $message, $subject)
+    public function __construct($data)
     {
         //
-        $this->name = $name;
-        $this->email = $email;
-        $this->phone = $phone;
-        $this->message = $message;
-        $this->subject = $subject;
+        $this->data = $data;
     }
 
     /**
@@ -38,6 +30,6 @@ class ContactMail extends Mailable
      */
     public function build()
     {
-        return $this->subject($this->subject)->view('maileclipse::templates.contactsEmail');
+        return $this->subject($this->subject)->view('maileclipse::templates.contactsEmail')->with('data', $this->data);
     }
 }

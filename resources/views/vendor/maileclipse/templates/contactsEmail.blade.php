@@ -373,10 +373,10 @@
 <tr>
 <td class="body-text-cell" style="width: 423px;">
 <p>Someone just sent a message to you via our contact page with the details below.</p>
-<p><b>Name:&nbsp;</b>{{ $name }}</p>
-<p><b>Email:&nbsp;</b>{{ $email }}</p>
-<p><b>Phone Number: </b>0{{ $phone }}</p>
-<p><b>Message:&nbsp;</b>{{ $message }}</p>
+<p><b>Name:&nbsp;</b>{{ $data['name'] }}</p>
+<p><b>Email:&nbsp;</b>{{ $data['email'] }}</p>
+<p><b>Phone Number: </b>0{{ $data['phone'] }}</p>
+<p><b>Message:&nbsp;</b>{{ $data['message'] }}</p>
 <p>click the button below to check to view in messages box.</p>
 </td>
 </tr>

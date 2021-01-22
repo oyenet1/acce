@@ -43,7 +43,7 @@ class ContactController extends Controller
 
      public function store(Request $request)
      {
-        $data = request()->validate([
+       $data = request()->validate([
             'name' => 'required',
             'email' => ['required', 'email'],
             'phone' => ['required', 'digits:10'],
@@ -51,9 +51,18 @@ class ContactController extends Controller
             'message' => ['required', 'min:7', 'max:2000'],
         ]);
 
-        Mail::to(env('MAIL_USERNAME'))->send(new ContactMail($data['name'], $data['email'], $data['phone'], $data['message'], $data['subject']));
-
+        // $data = array(
+        //     'name' => $request->name,
+        //     'email' => $request->email,
+        //     'phone' => $request->phone,
+        //     'subject' => $request->subject,
+        //     'message' => $request->message,
+        // );
+        // save into database
         Contact::create($data);
+
+        // send emails
+        Mail::to(env('MAIL_USERNAME'))->send(new ContactMail($data));
 
         return redirect()->route('contact')->with('success', 'Message has been sent. Thank You for contacting us.');
      }
