@@ -70,11 +70,11 @@ class ContactController extends Controller
 
             //Recipients
             $mail->setFrom($data['email'], 'ACCE-ABUJA');
-            $mail->addAddress('info@acce-abuja.com.ng', 'ACCE Info'); // Add a recipient
-            $mail->addAddress('info@acce-abuja.com.ng', $data['name']); // Name is optional
-            $mail->addReplyTo($data['email'], $data['name']);
-            $mail->addCC($data['email']);
-            $mail->addBCC('it@acce-abuja.com.ng');
+            $mail->addAddress('netbite62@gmail.com', 'ACCE Info'); // Add a recipient
+            //$mail->addAddress('bowofadeoyerinde@gmail.com', $data['name']); // Name is optional
+            //$mail->addReplyTo($data['email'], $data['name']);
+            //$mail->addCC($data['email']);
+            //$mail->addBCC('it@acce-abuja.com.ng');
 
             //message to be delivered
 
@@ -84,9 +84,9 @@ class ContactController extends Controller
             $mail->Body = $data['message'].' <br>'. '<h5>Name</h5>:' . $data['name'].' <br>'. '<h5>Phone</h5>:' . 0 . $data['phone'] .' <br>'. '<h5>Email</h5>'. $data['email'];
             $mail->AltBody = 0 . $data['phone'];
 
+            Contact::create($data);
             $mail->send();
             // save into the database
-            Contact::create($data);
             return redirect()->route('contact')->with('success', 'Message has been sent. Thank You for contacting us.');
         } catch (Exception $e) {
             echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";

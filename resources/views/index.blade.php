@@ -8,13 +8,19 @@
             <p class="al-ansar m-0 text-white text-center text-sm-left d-md-none">Al-Ansar Center for Comprehensive
                 Education</p>
         </div>
+        {{-- video --}}
+        {{-- <video width="100%" height="auto" class="video" loop muted autoplay>
+            <source src="/video/acce.mp4" type="video/mp4">
+        </video> --}}
         <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
             <iframe style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden"
-                src="https://www.youtube.com/embed/EZAkP8jP5fY?autoplay=1&mute=1&enablejsapi=1" frameborder="0"
+                src="https://www.youtube.com/embed/EZAkP8jP5fY?playlist=EZAkP8jP5fY&loop=1&autoplay=1&mute=1&enablejsapi=1&loop=1&controls=0&modestbranding=1&" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
         </div>
+        {{-- <iframe width="1280" height="720" src="//www.youtube.com/embed/-Nqqlsy45iA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> --}}
         {{-- <iframe width="1280" height="720" src="https://www.youtube.com/embed/EZAkP8jP5fY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> --}}
+
 
     <!-- slideshow -->
     {{-- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
