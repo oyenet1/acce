@@ -3,8 +3,8 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="viewport" content="width=device-width" />
-  <title>Airmail Progress</title>
-  <style type="text/css">
+  <title>Airmail Upsell</title>
+    <style type="text/css">
   /* -------------------------------------
     GLOBAL
   ------------------------------------- */
@@ -164,8 +164,18 @@
     padding-bottom: 28px;
   }
 
+
+
+  .content .status-container.single .status-padding {
+    width: 80px;
+  }
+
   .content .status {
     width: 90%;
+  }
+
+  .content .status-container.single .status {
+      width: 300px;
   }
 
   .status {
@@ -345,10 +355,24 @@
 
 <body bgcolor="#ffffff">
 <div align="center">
-<table class="head-wrap w320 full-width-gmail-android" style="height: 46px;" border="0" cellspacing="0" cellpadding="0" bgcolor="#f9f8f8">
+<table class="head-wrap w320 full-width-gmail-android" border="0" cellspacing="0" cellpadding="0" bgcolor="#f9f8f8">
 <tbody>
-<tr style="height: 46px;">
-<td style="height: 46px; width: 1063px;" valign="top" bgcolor="#ffffff" height="8"><img src="https://www.acce-abuja.com.ng/image/logo.png" alt="al-ansar school logo" width="481" height="120" /></td>
+<tr>
+<td valign="top" bgcolor="#ffffff" width="100%" height="8"><!-- [if gte mso 9]>
+          <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="mso-width-percent:1000;height:8px;">
+            <v:fill type="tile" src="https://www.filepicker.io/api/file/UOesoVZTFObSHCgUDygC" color="#ffffff" />
+            <v:textbox inset="0,0,0,0">
+          <![endif]-->
+<div>&nbsp;</div>
+<!-- [if gte mso 9]>
+            </v:textbox>
+          </v:rect>
+          <![endif]--></td>
+</tr>
+<tr class="header-background">
+<td class="header container" align="center">
+<div class="content"><span class="brand"> <a href="#"> Company Name </a> </span></div>
+</td>
 </tr>
 </tbody>
 </table>
@@ -361,39 +385,43 @@
 <table cellspacing="0">
 <tbody>
 <tr>
-<td align="left"><br />
-<table class="body" style="width: 505px;">
+<td><img src="https://www.acce-abuja.com.ng/image/logo.png" alt="" width="679" height="100" /><br />
+<table class="body">
 <tbody>
 <tr>
-<td class="body-padding" style="width: 41px;">&nbsp;</td>
-<td class="body-padded" style="width: 423px;">
+<td class="body-padding">&nbsp;</td>
+<td class="body-padded">
 <div class="body-title">Dear Administrator,</div>
-<table class="body-text" style="width: 423px;">
+<table class="body-text">
 <tbody>
 <tr>
-<td class="body-text-cell" style="width: 423px;">
-<p>Someone just sent a message to you via our contact page with the details below.</p>
-<p><strong>Name:&nbsp;</strong>{{ $data['name'] }}</p>
-<p><strong>Email:&nbsp;</strong>{{ $data['email'] }}</p>
-<p><strong>Phone Number: </strong>0{{ $data['phone'] }}</p>
-<p><strong>Message:&nbsp;</strong>{{ $data['message'] }}</p>
-<p>click the button below to check to view in messages box.</p>
+<td class="body-text-cell">
+<p>Someone just applied for admission on our school platform with the details below.</p>
+<p>&nbsp;</p>
+<p>click the button below to check to view the full information about the admission.</p>
 </td>
 </tr>
 </tbody>
 </table>
-<div><a style="background-color: #41cc00; background-image: url('https://www.filepicker.io/api/file/N8GiNGsmT6mK6ORk00S7'); border: 1px solid #407429; border-radius: 4px; color: #ffffff; display: inline-block; font-family: sans-serif; font-size: 17px; font-weight: bold; line-height: 38px; text-align: center; text-decoration: none; width: 210px; -webkit-text-size-adjust: none; mso-hide: all;" title="Contact" href="https://www.acce-abuja.com.ng/messages" target="_blank" rel="noopener">&nbsp;Click here</a></div>
+<div><!-- [if mso]>
+                            <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="#" style="height:38px;v-text-anchor:middle;width:210px;" arcsize="10%" strokecolor="#407429" fill="t">
+                            <v:fill type="tile" src="https://www.filepicker.io/api/file/N8GiNGsmT6mK6ORk00S7" color="#41CC00" />
+                            <w:anchorlock/>
+                            <center style="color:#ffffff;font-family:sans-serif;font-size:17px;font-weight:bold;">Add more info here</center>
+                          </v:roundrect>
+                        <![endif]--><a style="background-color: #41cc00; background-image: url('https://www.filepicker.io/api/file/N8GiNGsmT6mK6ORk00S7'); border: 1px solid #407429; border-radius: 4px; color: #ffffff; display: inline-block; font-family: sans-serif; font-size: 17px; font-weight: bold; line-height: 38px; text-align: center; text-decoration: none; width: 210px; -webkit-text-size-adjust: none; mso-hide: all;" href="https://www.acce-abuja.com.ng/admission/index" target="_blank" rel="noopener">Click Here</a></div>
 <table class="body-signature-block">
 <tbody>
 <tr>
 <td class="body-signature-cell">
 <p>Kind Regards,</p>
-<font color="#003973" style="font-size: 40px">ACCE-ABUJA</font></td>
+<p>Acce Abuja</p>
+</td>
 </tr>
 </tbody>
 </table>
 </td>
-<td class="body-padding" style="width: 41px;">&nbsp;</td>
+<td class="body-padding">&nbsp;</td>
 </tr>
 </tbody>
 </table>
@@ -411,7 +439,7 @@
 <tbody>
 <tr>
 <td>
-<div class="content footer-lead"><a href="https://www.acce-abuja.com.ng"><strong>Get in touch</strong></a> if you have any questions or feedback</div>
+<div class="content footer-lead"><a href="https://www.acce-abuja.com.ng" target="_blank" rel="noopener"><strong>Get in touch</strong></a> if you have any questions or feedback</div>
 </td>
 </tr>
 </tbody>
@@ -420,7 +448,7 @@
 <tbody>
 <tr>
 <td>
-<div class="content"><a href="mailto:it@acce-abuja.com.ng" target="_blank" rel="noopener">Contact It Department</a>&nbsp;&nbsp;|&nbsp;&nbsp; <span class="footer-group"> <a href="https://www.facebook.com/acceabuja" target="_blank" rel="noopener">Facebook</a>&nbsp;&nbsp;|&nbsp;&nbsp; <a href="https://www.youtube.com/channel/UCC4qrHra0XKQcH5ThorYJeA">Youtube</a> &nbsp;</span></div>
+<div class="content"><a href="https://www.acce-abuja.com.ng/contact" target="_blank" rel="noopener">Contact Us</a>&nbsp;&nbsp;|&nbsp;&nbsp; <span class="footer-group"> <a href="https://www.facebook.com/acceabuja" target="_blank" rel="noopener">Facebook</a>&nbsp;&nbsp;|&nbsp;&nbsp; <a href="https://www.facebook.com/acceabuja" target="_blank" rel="noopener">Twitter</a>&nbsp;&nbsp;|&nbsp;&nbsp; <a href="https://www.acce-abuja.com.ng" target="_blank" rel="noopener">Support</a> </span></div>
 </td>
 </tr>
 </tbody>
