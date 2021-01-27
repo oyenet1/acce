@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 
 class EmailController extends Controller
 {
-    //
+    //Pad
 
 public function contactMail()
 {

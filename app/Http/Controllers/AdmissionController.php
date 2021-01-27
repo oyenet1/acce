@@ -3,7 +3,9 @@
 namespace App\Http\Controllers;
 
 use App\Models\Admission;
+use App\Mail\AdmissionMail;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 
 class AdmissionController extends Controller
 {
@@ -111,6 +113,8 @@ class AdmissionController extends Controller
 
         Admission::create($data);
 
+        Mail::to(env('MAIL_USERNAME'))->send(new AdmissionMail($data));
+
         return redirect('/payment');
         //return redirect('https://paystack.com/buy/acce-abuja-form');
     }
@@ -124,6 +128,7 @@ class AdmissionController extends Controller
     public function show(Admission $admission)
     {
         //
+        return view('');
     }
 
     /**

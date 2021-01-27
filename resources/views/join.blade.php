@@ -7,7 +7,7 @@
             <h3 class="text-color">Why Join Us</h3>
             <p>In our short period of existence, we have assembled an exceptional team with a broad mix of educational and professional experiences. Diversity and inclusiveness are a strong business imperative for us as we respect the competencies, talents and differences of our diverse group of employees. The representation of the Nigeria system in our workforce is not merely to comply with the corporate philosophy and policy, but a belief in the strength of diversity and a commitment to inclusion. We will continue to strive for fair representation in our recruitment process without compromising on skills and fit.</p>
 
-            <p>At the ACCE, we believe that people are the thrust of the organization's success. This is why we always seek to hire and develop the best talents available with in Nigeria and where necessary, beyond our shores. Our employees share a common passion to exceed the call of duty while contribution to the implementation of ACCE's mandates</p>
+            <p>At the ACCE, we believe that people are the thrust of the organization's success. This is why we always seek to hire and develop the best talents available within Nigeria and where necessary, beyond our shores. Our employees share a common passion to exceed the call of duty while contributing to the implementation of ACCE's mandates</p>
 
             <p>The organisation's people management practices have been developed, using world class standards with clear and specific aims which include:
                 <ul class="ml-5">

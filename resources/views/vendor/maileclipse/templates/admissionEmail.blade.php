@@ -371,7 +371,7 @@
 </tr>
 <tr class="header-background">
 <td class="header container" align="center">
-<div class="content"><span class="brand"> <a href="#"> Company Name </a> </span></div>
+<div class="content"><font color="#003973"><b>Al-Ansar Center for Comprehensive Education</b></font></div>
 </td>
 </tr>
 </tbody>
@@ -398,6 +398,10 @@
 <td class="body-text-cell">
 <p>Someone just applied for admission on our school platform with the details below.</p>
 <p>&nbsp;</p>
+<p><strong>Name:&nbsp;</strong>{{ $data['parentname'] }}</p>
+<p><strong>Email:&nbsp;</strong>{{ $data['email'] }}</p>
+<p><strong>Phone Number: </strong>0{{ $data['phone'] }}</p>
+<p>&nbsp;</p>
 <p>click the button below to check to view the full information about the admission.</p>
 </td>
 </tr>
@@ -415,7 +419,7 @@
 <tr>
 <td class="body-signature-cell">
 <p>Kind Regards,</p>
-<p>Acce Abuja</p>
+<p style="font-size: 40px; color: #14469b; font-weight: bold;">ACCE ABUJA</p>
 </td>
 </tr>
 </tbody>
